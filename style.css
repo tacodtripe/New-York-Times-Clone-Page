@@ -5,6 +5,8 @@
   font-family: Libre Franklin, helvetica, arial, sans-serif;
 }
 
+/* Top navbar styles */
+
 header span {
   color: #888;
   font-size: 13px;
@@ -80,14 +82,82 @@ header img {
 }
 
 #header-img {
-  width: 945px;
+  width: 50%;
   margin: 0 auto;
 }
 
 header p {
-  width: 720px;
-  margin-left: 14em;
+  width: 50%;
+  margin: 0 auto;
   color: #666;
   font-size: 15px;
   line-height: 1.3;
 }
+
+#header-bottom-information {
+  display: grid;
+  grid-template-rows: 20px 20px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#header-bottom-user {
+  grid-row:1;
+  font-size: 12px;
+}
+
+#header-bottom-user a {
+  color: #333;
+}
+
+
+#header-bottom-navbar {
+  grid-row: 2;
+}
+
+#header-bottom-navbar time {
+  float: left;
+  font-size: 9px;
+}
+
+#header-bottom-icons {
+  float: right;
+}
+
+.no-background {
+  background-color: transparent !important;
+  ;
+}
+
+.no-background i {
+  font-size: 30px !important;
+}
+
+#header-bottom-icons i {
+  font-size: 20px;
+  padding: 3px;
+  color: black;
+}
+
+#header-bottom-icons span {
+  position: relative;
+  right: 2.7em;
+  font-size: 8px;
+  color: black;
+  bottom: 10px;
+}
+
+#header-bottom-icons a {
+  background-color: #eee;
+  border-radius: 15px;
+  display: inline-block;
+  text-align: center;
+  width: 1.7em;
+  height: 1.7em;
+}
+
+
+
+
+
+
