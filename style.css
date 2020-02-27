@@ -58,3 +58,35 @@ nav svg {
     font-size: 12px;
 }
 
+/* Header styles */
+header {
+    margin-top: 65px;
+}
+
+header h1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+header img {
+    width: 100%;
+}
+
+#header-img {
+    width: 945px;
+    margin: 0 auto;
+}
+
+header p {
+    width: 720px;
+    margin-left: 14em;
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+header span {
+    color: #888888;
+    font-size: 13px;
+}
