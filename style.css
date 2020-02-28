@@ -186,5 +186,58 @@ header p {
   color: #326891;
 }
 
+#more-articles {
+  text-align: center;
+  font-weight: bold;
+}
 
+#more-articles a {
+  text-decoration: none;
+}
+
+
+#more-articles p {
+  line-height: 1.4;
+  
+  padding: 35px 0;
+  font-size: 15px;
+}
+
+span#top {
+  border-top: 1px solid #cccccc;
+  padding-top: 18px;
+}
+
+span#bottom {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px;
+}
+
+aside {
+  width: 210px;
+  position: absolute;
+  right: 85px;
+  top: 1880px;
+}
+
+aside hr {
+  border: 1px solid#ccc;
+  margin-bottom: 12px;
+}
+
+aside section {
+  display: flex;
+  align-items: center;
+}
+
+p#picks {
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 10px;
+}
+
+p#picks a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
 
