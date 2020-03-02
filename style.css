@@ -371,7 +371,7 @@ p#picks a {
   
 }
 
-figure.video {
+#video {
   width: 40%;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -379,13 +379,36 @@ figure.video {
 
 iframe {
   width: 100%;
-  height: 319px;
+  height: 40vh;
 }
 
-.video caption {
-  color: #888888;
-  line-height: 1.3;
+#video-information {
+  color: #666;
+  line-height: 1.2 !important;
+  width: 100% !important;
+  font-size: 1rem !important;
 }
 
-caption span {
+#video span {
+  color: rgb(136, 136, 136);
+}
+
+img[alt="The Bicep2 telescope"] {
+  width: 80%;
+  margin: 10px auto;
+  margin-left: 10%;
+}
+
+#bicep2-information {
+  color: #666; 
+  font-size: 0.9rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 3em !important;
+
+}
+
+#bicep2-information span {
+  color: rgb(136, 136, 136);
+  font-size: 1em;
+  margin-left: 1%;
 }
