@@ -14,12 +14,10 @@ header span {
 
 #top-navbar {
   display: flex;
-  /* grid-template-columns: minmax(155px, 20%) minmax(195px, 60%) minmax(200px, 20%); */
   position: fixed;
   z-index: 2; 
   background-color: white;
   border-bottom: 1px solid lightgray;
-  /* grid-template-rows: 35px; */
   top: 0;
   height: 35px;
   width: 100%;
@@ -33,11 +31,9 @@ nav svg {
 }
 
 #top-navbar-left {
-  /* grid-column: 1; */
   display: flex;
   align-items: center;
   margin-left: 5em;
-  /* justify-content: end; */
 }
 
 #top-navbar i {
@@ -58,13 +54,12 @@ nav svg {
 }
 
 #top-navbar-right {
-  /* grid-column: 3; */
   margin-right: 5em;
   display: flex;
   align-items: center;
 }
 
-#top-navbar button {
+#top-navbar button, #main-bottom-navbar button {
   background-color: #567b95;
   border: 1px solid #326891;
   color: white;
@@ -105,8 +100,6 @@ header p {
 }
 
 #header-bottom-information {
-  /* display: grid; */
-  /* grid-template-rows: 20px 20px; */
   width: 40%;
   margin: 0 auto;
   margin-top: 50px;
@@ -123,7 +116,6 @@ header p {
 
 
 #header-bottom-navbar {
-  /* grid-row: 2; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -131,7 +123,6 @@ header p {
 }
 
 #header-bottom-navbar time {
-  /* float: left; */
   font-size: 12px;
 }
 
@@ -149,7 +140,7 @@ header p {
   color: #666666 !important;
 }
 
-#header-bottom-icons i {
+#header-bottom-icons i, #main-bottom-navbar i {
   font-size: 14px;
   padding: 3px;
   color: black;
@@ -163,9 +154,8 @@ header p {
   bottom: 9px;
 }
 
-#header-bottom-icons a {
+#header-bottom-icons a, #main-bottom-navbar a {
   background-color: #eee;
-  /* border-radius: 15px; */
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -263,42 +253,6 @@ p#picks a {
   position: relative;
   min-width: 1160px;
 }
-
-/* #img-captions {
-  display: grid;
-  grid-template-rows: 10vw 10vw;
-  grid-template-columns: repeat(4,19em);;
-  justify-content: left;
-  position: absolute;
-  top: 6vw;
-  left: 19.6vw;
-  font-size: 14px;
-  grid-gap: 37% 1.4%;
-}
-
-.img-first-row {
-  grid-row: 1;
-}
-
-.img-second-row {
-  grid-row: 2;
-}
-
-.img-first-column {
-  grid-column: 1;
-}
-
-.img-second-column {
-  grid-column: 2;
-}
-
-.img-third-column {
-  grid-column: 3;
-}
-
-.img-fourth-column {
-  grid-column: 4;
-} */
 
 #figure-header {
   width: 60%;
@@ -411,4 +365,31 @@ img[alt="The Bicep2 telescope"] {
   color: rgb(136, 136, 136);
   font-size: 1em;
   margin-left: 1%;
+}
+
+#main-bottom-navbar {
+  width: 40%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-bottom-navbar div {
+  margin-right: 3%;
+}
+
+#main-bottom-navbar button {
+  padding: 1em 9em;
+}
+
+#main-last-information {
+  color: rgb(102, 102, 102) !important;
+  font-size: 0.8em !important;
+  margin: 2% auto !important;
+
+}
+
+#main-last-information span a {
+  color: rgb(102, 102, 102);
 }
