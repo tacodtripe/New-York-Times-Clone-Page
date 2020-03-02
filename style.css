@@ -175,8 +175,6 @@ header p {
   margin: 0 10px 0 0;
 }
 
-#main-content {
-}
 
 .inner-section {
   width: 50%;
@@ -203,10 +201,8 @@ header p {
   text-decoration: none;
 }
 
-
 #more-articles p {
   line-height: 1.4;
-  
   padding: 35px 0;
   font-size: 15px;
 }
@@ -354,4 +350,42 @@ p#picks a {
 #r2c4 {
   top: 64%;
   left: 66%;
+}
+
+#figure-details {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 14px;
+  display: flex;
+}
+
+#figure-details p {
+  padding-top: 15px;
+  margin-right: 5px;
+  border-top: 1px solid transparent;
+}
+
+#figure-details p.top-border {
+  border-top: 2px solid #000000;
+  
+}
+
+figure.video {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+iframe {
+  width: 100%;
+  height: 319px;
+}
+
+.video caption {
+  color: #888888;
+  line-height: 1.3;
+}
+
+caption span {
 }
