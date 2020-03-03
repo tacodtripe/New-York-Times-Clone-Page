@@ -585,3 +585,12 @@ img[alt="The Bicep2 telescope"] {
   margin: ;
   margin-left: 0.3%;
 }
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#ft-top, #ft-mid {
+  display: flex;
+}
