@@ -591,6 +591,72 @@ footer {
   margin: 0 auto;
 }
 
-#ft-top, #ft-mid {
+#ft-top, 
+#ft-mid {
   display: flex;
+  justify-content: space-between;
+}
+
+#ft-top {
+  border-top: 1px solid #cccccc;
+  padding: 10px 0;
+  padding-top:20px
+}
+
+#ft-top .logo {
+  width: 12em;
+}
+
+#news-part,
+#op-part,
+#arts-part,
+#lv-part,
+#more-part {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#news-part ul,
+#op-part ul,
+#arts-part ul,
+#lv-part ul,
+#more-part ul {
+  padding: 0;
+  margin: 0;
+}
+
+#news-part li,
+#op-part li,
+#arts-part li,
+#lv-part li,
+#more-part li {
+  list-style: none;
+  display: block;
+  margin-bottom: 7%;
+}
+
+#news-part li a,
+#op-part li a,
+#arts-part li a,
+#lv-part li a,
+#more-part li a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-weight: normal;
+}
+#bottom-navbar {
+  display: flex;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  justify-content: center ;
+}
+#bottom-navbar span {
+  display: flex;
+  align-items: center;
+  margin-left: 4%;
 }
