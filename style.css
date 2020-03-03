@@ -398,6 +398,7 @@ img[alt="The Bicep2 telescope"] {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  margin-top: 3%;
 }
 
 #sect-titles a {
@@ -410,13 +411,16 @@ img[alt="The Bicep2 telescope"] {
 
 #sect-titles h4,
 #sect-titles a {
-  display: block;
+  /* display: block; */
   border-top: 1px solid rgb(18, 18, 18);
   text-decoration: none;
   color: rgb(18, 18, 18);
-  padding: 2% 0;
+  padding-top: 2%;
   font-weight: bold;
-  /* margin-right: 3%; */
+}
+
+#sect-titles a {
+  margin-right: 3%;
 }
 
 #summary {
@@ -426,10 +430,6 @@ img[alt="The Bicep2 telescope"] {
   width: 80%;
   margin: 0 auto;
   /* margin-top: 4%; */
-}
-
-a#more-stories {
-  
 }
 
 #summary-fc {
@@ -444,6 +444,7 @@ a#more-stories {
 }
 
 #summary-sc ul {
+  padding: 0;
   list-style: none;
 }
 
