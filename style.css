@@ -403,6 +403,7 @@ img[alt="The Bicep2 telescope"] {
 
 #sect-titles a {
   width: 75%;
+  margin-left: 1.7%;
 }
 
 #sect-titles h4 {
@@ -435,8 +436,9 @@ img[alt="The Bicep2 telescope"] {
 #summary-fc {
   grid-column: 1;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30vh 30vh 10vh 30vh;
+  grid-template-columns: repeat(3, 19.8vw);
+  margin-top: 1.6vh;
 }
 
 #summart-sc {
@@ -446,6 +448,7 @@ img[alt="The Bicep2 telescope"] {
 #summary-sc ul {
   padding: 0;
   list-style: none;
+  margin-left: 4%;
 }
 
 #summary-sc li {
@@ -465,62 +468,120 @@ img[alt="The Bicep2 telescope"] {
 #summary-fc #r1c1 {
   grid-column: 1;
   grid-row: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary-fc #r1c2 {
   grid-column: 2;
   grid-row: 1;
-  display: grid;
-  grid-template-rows: 50% 10% 30% 10%;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary-fc #r1c3 {
   grid-column: 3;
   grid-row: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary-fc #r2c1 {
   grid-column: 1;
   grid-row: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary-fc #r2c2 {
   grid-column: 2;
   grid-row: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary-fc #r2c3 {
   grid-column: 3;
   grid-row: 2;
+  display: flex;
+  flex-direction: column;
 }
 
-#summary-fc #r3c1 {
+#summary-fc #r3 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+  border-top: 1px solid rgb(18, 18, 18);
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-left: 2%;
+}
+
+#summary-fc #r4c1 {
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
 }
 
-#summary-fc #r3c2 {
+#summary-fc #r4c2 {
   grid-column: 2;
-  grid-row: 3;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
 }
 
-#summary-fc #r3c3 {
+#summary-fc #r4c3 {
   grid-column: 3;
-  grid-row: 3;
+  grid-row: 4;
+  display: flex;
+  flex-direction: column;
 }
 
 #summary img  {
-  width: 90%;
+  width: 17vw;
+  margin: 0 auto;
 }
 
-#r1c2 .gray-a {
+#r1c1 .gray-a, #r1c2 .gray-a, #r1c3 .gray-a,
+#r2c1 .gray-a, #r2c2 .gray-a, #r2c3 .gray-a,
+#r4c1 .gray-a, #r4c2 .gray-a, #r4c3 .gray-a {
   color: rgb(153, 153, 153);
+  font-size: 0.8em;
+  text-align: end;
+  margin-right: 7%;
 }
 
-#r1c2 .black-a {
+#r1c1 .black-a, #r1c2 .black-a, #r1c3 .black-a,
+#r2c1 .black-a, #r2c2 .black-a, #r2c3 .black-a,
+#r4c1 .black-a, #r4c2 .black-a, #r4c3 .black-a {
   color: rgb(18, 18, 18);
+  text-align: justify;
+  font-size: 1em;
+  width: 17vw;
+  margin: 0 auto;
 }
 
-#r1c2 time {
+#r1c1 time, #r1c2 time, #r1c3 time,
+#r2c1 time, #r2c2 time, #r2c3 time,
+#r4c1 time, #r4c2 time, #r4c3 time {
   color: rgb(153, 153, 153);
+  font-size: 0.7vw;
+  margin-left: 7%;
+}
+
+#r1c1-smaller-text {
+  font-size: 0.5em !important;
+}
+
+#summary-fc a {
+  text-decoration: none;
+}
+
+#r3 a {
+  color: #333;
+  font-weight: bold;
+  margin: ;
+  margin-left: 0.3%;
 }
