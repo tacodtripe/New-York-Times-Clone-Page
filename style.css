@@ -397,7 +397,9 @@ img[alt="The Bicep2 telescope"] {
 #summary {
   display: grid;
   /* grid-template-rows: auto; */
-  grid-template-columns: 60% auto;
+  grid-template-columns: 75% auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #summary-fc {
@@ -413,6 +415,19 @@ img[alt="The Bicep2 telescope"] {
 
 #summary-sc ul {
   list-style: none;
+}
+
+#summary-sc li {
+  display: block;
+  padding: 15px 0;
+  border-top: 1px solid #cccccc;
+}
+
+#summary-sc li a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-size: 1.2rem;
+  line-height: 1.4;
 }
 
 #summary-fc #r1c1 {
