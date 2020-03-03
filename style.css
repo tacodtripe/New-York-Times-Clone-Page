@@ -393,3 +393,8 @@ img[alt="The Bicep2 telescope"] {
 #main-last-information span a {
   color: rgb(102, 102, 102);
 }
+
+#summary {
+  display: grid;
+  /* grid-template-rows: ; */
+}
