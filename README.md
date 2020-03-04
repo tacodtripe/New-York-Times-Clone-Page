@@ -16,7 +16,7 @@ It's a clone page from an article of the New York Times webpage.
 
 - Github: [@Chatella](https://github.com/Cathella)
 - Twitter: [@Cathella9](https://twitter.com/cathella9)
-- Linkedin: [linkedin]https://www.linkedin.com/in/catherine-nakitto-51ba2a40/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/catherine-nakitto-51ba2a40/)
 
 👤 Raul Figueroa
 
