@@ -33,7 +33,7 @@ nav svg {
 #top-navbar-left {
   display: flex;
   align-items: center;
-  margin-left: 5em;
+  margin-left: 3em;
 }
 
 #top-navbar i {
@@ -46,15 +46,14 @@ nav svg {
   text-decoration: none;
 }
 
-#top-navbar span {
-  font-weight: 700;
+.logo2 {
+  font-weight: bold;
   font-size: 14.25px;
   position: relative;
-  bottom: 3px;
 }
 
 #top-navbar-right {
-  margin-right: 5em;
+  margin-right: 3em;
   display: flex;
   align-items: center;
 }
