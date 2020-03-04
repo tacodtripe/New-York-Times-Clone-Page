@@ -589,6 +589,7 @@ footer {
   width: 80%;
   margin: 0 auto;
   margin-bottom: 3%;
+  margin-top: 4%;
 }
 
 #ft-top, 
@@ -598,7 +599,7 @@ footer {
 }
 
 #ft-top {
-  border-top: 1px solid #cccccc;
+  border-top: 2px dashed #cccccc;
   padding: 10px 0;
   padding-top:20px
 }
@@ -607,20 +608,43 @@ footer {
   width: 12em;
 }
 
+#ft-top a.home-link {
+  color: #567b95;
+  font-size: 10px;
+  text-decoration: none;
+}
+
 #news-part,
 #op-part,
 #arts-part,
 #lv-part,
-#more-part {
+#more-part,
+#subscribe {
   font-size: 13px;
   font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#subscribe {
+  padding-left: 1.3%;
+  padding-right: 5%;
+}
+
+#sub-links a {
+  display: block;
+  margin-bottom: 5%;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+  font-size: 14px;
 }
 
 #news-part ul,
 #op-part ul,
 #arts-part ul,
 #lv-part ul,
-#more-part ul {
+#more-part ul,
+#subscribe ul {
   padding: 0;
   margin: 0;
 }
@@ -629,21 +653,58 @@ footer {
 #op-part li,
 #arts-part li,
 #lv-part li,
-#more-part li {
+#more-part li,
+#subscribe li {
   list-style: none;
   display: block;
   margin-bottom: 7%;
+}
+
+#subscribe li {
+  margin-bottom: 9%;
+  font-size: 11px;
 }
 
 #news-part li a,
 #op-part li a,
 #arts-part li a,
 #lv-part li a,
-#more-part li a {
+#more-part li a,
+#subscribe li a {
   text-decoration: none;
   color: rgb(18, 18, 18);
   font-weight: normal;
 }
+
+#news-part li a:hover,
+#op-part li a:hover,
+#arts-part li a:hover,
+#lv-part li a:hover,
+#more-part li a:hover {
+  text-decoration: underline;
+}
+
+#subscribe {
+  border-left: 1px solid #cccccc;
+}
+
+#ft-last {
+  border-top: 1px solid #cccccc;
+  padding: 1.5% 0;
+  font-size: 10px;
+  text-align: center;
+}
+
+#ft-last a {
+  color: #666;
+  margin: 0 1%;
+  text-decoration: none;
+}
+
+#ft-last a:hover {
+  text-decoration: underline;
+}
+
 #bottom-navbar {
   display: flex;
   position: fixed;
