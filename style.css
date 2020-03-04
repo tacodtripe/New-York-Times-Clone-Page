@@ -5,12 +5,22 @@
   font-family: Libre Franklin, helvetica, arial, sans-serif;
 }
 
+.main-content a {
+  color: #326891;
+}
+
+p.picks a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+}
+
 /* Top navbar styles */
 
 header span {
   color: #888;
   font-size: 13px;
 }
+
 
 #top-navbar {
   display: flex;
@@ -176,10 +186,6 @@ header p {
   line-height: 1.8;
   margin: 0 auto;
   font-size: 1.2rem;
-}
-
-.main-content a {
-  color: #326891;
 }
 
 #more-articles {
@@ -426,11 +432,6 @@ p.picks {
   text-decoration: none;
   color: rgb(18, 18, 18);
   font-size: 14px;
-}
-
-p.picks a {
-  color: rgb(51, 51, 51);
-  text-decoration: none;
 }
 
 #main-last-information {
