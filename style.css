@@ -685,6 +685,7 @@ footer {
 
 #subscribe {
   border-left: 1px solid #cccccc;
+  width: 20%;
 }
 
 #ft-last {
@@ -726,3 +727,7 @@ footer {
   margin-left: 10%;
 }
 
+#subscribe svg {
+  width: 6%;
+  margin-right: 2%;
+}
