@@ -49,11 +49,6 @@ nav svg {
   background-color: transparent;
 }
 
-#header-bottom-navbar .no-background i {
-  font-size: 25px;
-  color: #666;
-}
-
 #top-navbar i {
   font-size: 20px;
   padding: 0 10px;
@@ -720,4 +715,9 @@ footer {
 #subscribe svg {
   width: 6%;
   margin-right: 2%;
+}
+
+#header-bottom-navbar .no-background i {
+  font-size: 25px;
+  color: #666;
 }
