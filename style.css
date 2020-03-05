@@ -274,7 +274,8 @@ aside div {
   text-align: start;
 }
 
-#inflation-figure-fr p, #inflation-figure-sr p{
+#inflation-figure-fr p,
+#inflation-figure-sr p {
   font-size: 1.6vh;
   padding-right: 1%;
 }
