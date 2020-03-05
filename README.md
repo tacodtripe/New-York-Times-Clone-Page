@@ -6,6 +6,9 @@
 
 It's a clone page from an article of the New York Times webpage.
 
+**This Project is testing the use of Float | Grid | Flex and part of the “CSS3 basis” 
+**Your task is to clone YouTube’s video player page. Please use web archive link: http://archive.today/Bss88 as a source page.\*
+
 ## Built With
 
 -HTML and CSS.
