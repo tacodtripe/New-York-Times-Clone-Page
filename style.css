@@ -573,7 +573,8 @@ p.picks {
 #r4c2 .black-a,
 #r4c3 .black-a {
   color: rgb(18, 18, 18);
-  text-align: justify;
+  text-align: left;
+  padding: 1% 0;
   font-size: 1em;
   width: 17vw;
   margin: 0 auto;
