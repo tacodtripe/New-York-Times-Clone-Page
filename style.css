@@ -2,7 +2,7 @@
   box-sizing: border-box;
   border: 0;
   padding: 0;
-  font-family: Libre Franklin, helvetica, arial, sans-serif;
+  font-family: 'Crimson Text', helvetica, arial, serif;
 }
 
 .main-content a {
@@ -90,7 +90,7 @@ header {
 }
 
 header h1 {
-  width: 21%;
+  width: 24%;
   margin: 0 auto;
   margin-bottom: 1em;
   font-style: italic;
@@ -277,7 +277,7 @@ aside div {
 #inflation-figure-fr p,
 #inflation-figure-sr p {
   font-size: 1.6vh;
-  padding-right: 1%;
+  margin-right: 3%;
 }
 
 #figure-details {
@@ -390,6 +390,7 @@ p.picks {
   color: #333;
   font-weight: bold;
   margin-left: 0.3%;
+  margin-top: 1.5%;
 }
 
 #ft-last a {
