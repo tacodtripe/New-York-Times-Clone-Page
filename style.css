@@ -95,7 +95,7 @@ header {
 }
 
 header h1 {
-  width: 45%;
+  width: 21%;
   margin: 0 auto;
   margin-bottom: 1em;
   font-style: italic;
@@ -140,7 +140,7 @@ header p {
   margin: 19px 0;
 }
 
-#header-bottom-navbar time {
+#header-bottom-navbar span {
   font-size: 12px;
 }
 
@@ -266,42 +266,42 @@ aside section {
   font-size: 1.5vh;
 }
 
-#r1c1 {
+#inflation-figure-r1c1 {
   top: 18%;
   left: 20%;
 }
 
-#r1c2 {
+#inflation-figure-r1c2 {
   top: 18%;
   left: 35%;
 }
 
-#r1c3 {
+#inflation-figure-r1c3 {
   top: 18%;
   left: 50%;
 }
 
-#r1c4 {
+#inflation-figure-r1c4 {
   top: 18%;
   left: 66%;
 }
 
-#r2c1 {
+#inflation-figure-r2c1 {
   top: 64%;
   left: 20%;
 }
 
-#r2c2 {
+#inflation-figure-r2c2 {
   top: 64%;
   left: 35%;
 }
 
-#r2c3 {
+#inflation-figure-r2c3 {
   top: 64%;
   left: 50%;
 }
 
-#r2c4 {
+#inflation-figure-r2c4 {
   top: 64%;
   left: 66%;
 }
@@ -453,7 +453,6 @@ p.picks {
 #summary-fc {
   grid-column: 1;
   display: grid;
-  grid-template-rows: 30vh 30vh 10vh 30vh;
   grid-template-columns: repeat(3, 19.8vw);
   margin-top: 1.6vh;
 }
@@ -484,74 +483,62 @@ p.picks {
 
 #summary-fc #r1c1 {
   grid-column: 1;
-  grid-row: 1;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r1c2 {
   grid-column: 2;
-  grid-row: 1;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r1c3 {
   grid-column: 3;
-  grid-row: 1;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r2c1 {
   grid-column: 1;
-  grid-row: 2;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r2c2 {
   grid-column: 2;
-  grid-row: 2;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r2c3 {
   grid-column: 3;
-  grid-row: 2;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r3 {
   grid-column: 1 / span 3;
-  grid-row: 3;
   border-top: 1px solid rgb(18, 18, 18);
   display: flex;
   align-items: center;
-  margin-top: 2%;
-  margin-right: 3%;
-  margin-left: 2%;
+  margin: 2% 2% 3% 2%;
 }
 
 #summary-fc #r4c1 {
   grid-column: 1;
-  grid-row: 4;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r4c2 {
   grid-column: 2;
-  grid-row: 4;
   display: flex;
   flex-direction: column;
 }
 
 #summary-fc #r4c3 {
   grid-column: 3;
-  grid-row: 4;
   display: flex;
   flex-direction: column;
 }
@@ -592,15 +579,15 @@ p.picks {
   margin: 0 auto;
 }
 
-#r1c1 time,
-#r1c2 time,
-#r1c3 time,
-#r2c1 time,
-#r2c2 time,
-#r2c3 time,
-#r4c1 time,
-#r4c2 time,
-#r4c3 time {
+#r1c1 span,
+#r1c2 span,
+#r1c3 span,
+#r2c1 span,
+#r2c2 span,
+#r2c3 span,
+#r4c1 span,
+#r4c2 span,
+#r4c3 span {
   color: rgb(153, 153, 153);
   font-size: 0.7vw;
   margin-left: 7%;
