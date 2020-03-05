@@ -4,7 +4,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-This is a microverse HTML/CSS project we were required to do exercising the use of Float | Grid | Flex. It tests the positioning and floating of elements on a page. We managed to create a clone of the New York Times article page - Link to the original page is right here https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 satisfying all the requirements.
+This is a microverse HTML/CSS project we were required to do exercising the use of Float | Grid | Flex. It tests the positioning and floating of elements on a page. We managed to create a clone of the New York Times article page - Link to the original page is right here [NYT article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) satisfying all the requirements.
 
 Find the live version of our project here https://raw.githack.com/tacodtripe/New-York-Times-Clone-Page/features/index.html
 
