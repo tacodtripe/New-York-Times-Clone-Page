@@ -45,13 +45,13 @@ nav svg {
   margin-left: 3em;
 }
 
-.no-background {
-  background-color: transparent !important;
+#header-bottom-navbar .no-background {
+  background-color: transparent;
 }
 
-.no-background i {
-  font-size: 25px !important;
-  color: #666 !important;
+#header-bottom-navbar .no-background i {
+  font-size: 25px;
+  color: #666;
 }
 
 #top-navbar i {
@@ -335,11 +335,11 @@ iframe {
   height: 40vh;
 }
 
-#video-information {
+.main-content #video-information {
   color: #666;
-  line-height: 1.2 !important;
-  width: 100% !important;
-  font-size: 1rem !important;
+  line-height: 1.2;
+  width: 100%;
+  font-size: 1rem;
 }
 
 #video span {
@@ -352,11 +352,11 @@ img[alt="The Bicep2 telescope"] {
   margin-left: 10%;
 }
 
-#bicep2-information {
+.main-content #bicep2-information {
   color: #666;
-  font-size: 0.9rem !important;
-  line-height: 1.2 !important;
-  margin-bottom: 3em !important;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-bottom: 3em;
 }
 
 #bicep2-information span {
@@ -433,10 +433,10 @@ p.picks {
   font-size: 14px;
 }
 
-#main-last-information {
-  color: rgb(102, 102, 102) !important;
-  font-size: 0.8em !important;
-  margin: 2% auto !important;
+.main-content #main-last-information {
+  color: rgb(102, 102, 102);
+  font-size: 0.8em;
+  margin: 2% auto;
 }
 
 #main-last-information span a {
@@ -589,12 +589,7 @@ p.picks {
 #r4c2 span,
 #r4c3 span {
   color: rgb(153, 153, 153);
-  font-size: 0.7vw;
   margin-left: 7%;
-}
-
-#r1c1-smaller-text {
-  font-size: 0.5em !important;
 }
 
 footer {
