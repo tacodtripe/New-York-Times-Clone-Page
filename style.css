@@ -35,8 +35,8 @@ header span {
 
 nav svg {
   width: 12em;
-  grid-column: 2;
-  justify-self: center;
+  position: relative;
+  top: 14%;
 }
 
 #top-navbar-left {
@@ -225,7 +225,7 @@ aside hr {
   margin-bottom: 12px;
 }
 
-aside section {
+aside div {
   display: flex;
   align-items: center;
   padding: 8px 0;
@@ -254,51 +254,29 @@ aside section {
   margin: 0 auto;
 }
 
-#inflation-figure p {
-  text-align: start;
-  width: 15%;
+#inflation-figure-fr {
   position: absolute;
-  font-size: 1.5vh;
-}
-
-#inflation-figure-r1c1 {
-  top: 18%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 61%;
   left: 20%;
+  top: 16%;
+  text-align: start;
 }
 
-#inflation-figure-r1c2 {
-  top: 18%;
-  left: 35%;
-}
-
-#inflation-figure-r1c3 {
-  top: 18%;
-  left: 50%;
-}
-
-#inflation-figure-r1c4 {
-  top: 18%;
-  left: 66%;
-}
-
-#inflation-figure-r2c1 {
-  top: 64%;
+#inflation-figure-sr {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 61%;
   left: 20%;
+  top: 65%;
+  text-align: start;
 }
 
-#inflation-figure-r2c2 {
-  top: 64%;
-  left: 35%;
-}
-
-#inflation-figure-r2c3 {
-  top: 64%;
-  left: 50%;
-}
-
-#inflation-figure-r2c4 {
-  top: 64%;
-  left: 66%;
+#inflation-figure-fr p, #inflation-figure-sr p{
+  font-size: 1.6vh;
+  padding-right: 1%;
 }
 
 #figure-details {
