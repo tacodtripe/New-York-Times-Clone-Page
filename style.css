@@ -5,6 +5,59 @@
   font-family: 'Crimson Text', helvetica, arial, serif;
 }
 
+header span {
+  color: #888;
+  font-size: 13px;
+}
+
+#top-navbar,
+#top-navbar-left,
+#top-navbar-right,
+#header-bottom-navbar,
+aside div,
+#sect-titles,
+#summary-fc #r1c1,
+#summary-fc #r1c2,
+#summary-fc #r1c3,
+#summary-fc #r2c1,
+#summary-fc #r2c2,
+#summary-fc #r2c3,
+#summary-fc #r3,
+#summary-fc #r4c1,
+#summary-fc #r4c2,
+#summary-fc #r4c3,
+#figure-details,
+#main-bottom-navbar,
+#ft-top,
+#ft-mid,
+#bottom-navbar,
+#bottom-navbar span {
+  display: flex;
+}
+
+#summary-fc #r1c1,
+#summary-fc #r1c2,
+#summary-fc #r1c3,
+#summary-fc #r2c1,
+#summary-fc #r2c2,
+#summary-fc #r2c3,
+#summary-fc #r4c1,
+#summary-fc #r4c2,
+#summary-fc #r4c3 {
+  flex-direction: column;
+}
+
+#top-navbar-left,
+#top-navbar-right,
+#header-bottom-navbar,
+aside div,
+#main-bottom-navbar,
+#sect-titles,
+#summary-fc #r3,
+#bottom-navbar span {
+  align-items: center;
+}
+
 .main-content a {
   color: #326891;
 }
@@ -14,23 +67,13 @@ p.picks a {
   text-decoration: none;
 }
 
-/* Top navbar styles */
-
-header span {
-  color: #888;
-  font-size: 13px;
-}
-
 #top-navbar {
-  display: flex;
   position: fixed;
   z-index: 2;
   background-color: white;
   border-bottom: 1px solid lightgray;
   top: 0;
   height: 35px;
-  width: 100%;
-  justify-content: space-between;
 }
 
 nav svg {
@@ -40,8 +83,6 @@ nav svg {
 }
 
 #top-navbar-left {
-  display: flex;
-  align-items: center;
   margin-left: 3em;
 }
 
@@ -67,8 +108,6 @@ nav svg {
 
 #top-navbar-right {
   margin-right: 3em;
-  display: flex;
-  align-items: center;
 }
 
 #top-navbar button,
@@ -96,7 +135,11 @@ header h1 {
   font-style: italic;
 }
 
-header img {
+header img,
+iframe,
+.main-content #video-information,
+#top-navbar,
+#bottom-navbar {
   width: 100%;
 }
 
@@ -122,6 +165,7 @@ header p {
 #header-bottom-user {
   grid-row: 1;
   font-size: 12px;
+  font-weight: bold;
 }
 
 #header-bottom-user a {
@@ -129,9 +173,6 @@ header p {
 }
 
 #header-bottom-navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin: 19px 0;
 }
 
@@ -226,9 +267,12 @@ aside hr {
 }
 
 aside div {
-  display: flex;
-  align-items: center;
   padding: 8px 0;
+}
+
+aside img {
+  width: 75px;
+  height: 75px;
 }
 
 #sect-titles a {
@@ -285,7 +329,6 @@ aside div {
   margin: 0 auto;
   margin-bottom: 30px;
   font-size: 14px;
-  display: flex;
 }
 
 #figure-details p {
@@ -305,14 +348,12 @@ aside div {
 }
 
 iframe {
-  width: 100%;
   height: 40vh;
 }
 
 .main-content #video-information {
   color: #666;
   line-height: 1.2;
-  width: 100%;
   font-size: 1rem;
 }
 
@@ -342,9 +383,6 @@ img[alt="The Bicep2 telescope"] {
 #main-bottom-navbar {
   width: 40%;
   margin: 1% auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #main-bottom-navbar div {
@@ -358,8 +396,6 @@ img[alt="The Bicep2 telescope"] {
 #sect-titles {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  align-items: center;
   margin-top: 3%;
 }
 
@@ -458,65 +494,41 @@ p.picks {
 
 #summary-fc #r1c1 {
   grid-column: 1;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 4%;
 }
 
 #summary-fc #r1c2 {
   grid-column: 2;
-  display: flex;
-  flex-direction: column;
-}
-
-#summary-fc #r1c3 {
-  grid-column: 3;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r2c1 {
   grid-column: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r2c2 {
   grid-column: 2;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r2c3 {
   grid-column: 3;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r3 {
   grid-column: 1 / span 3;
   border-top: 1px solid rgb(18, 18, 18);
-  display: flex;
-  align-items: center;
   margin: 2% 2% 3% 2%;
 }
 
 #summary-fc #r4c1 {
   grid-column: 1;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r4c2 {
   grid-column: 2;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary-fc #r4c3 {
   grid-column: 3;
-  display: flex;
-  flex-direction: column;
 }
 
 #summary img {
@@ -578,8 +590,10 @@ footer {
 }
 
 #ft-top,
-#ft-mid {
-  display: flex;
+#ft-mid,
+#top-navbar,
+#header-bottom-navbar,
+#main-bottom-navbar {
   justify-content: space-between;
 }
 
@@ -674,20 +688,16 @@ footer {
 }
 
 #bottom-navbar {
-  display: flex;
   position: fixed;
   z-index: 2;
   background-color: white;
   border-top: 1px solid lightgray;
   bottom: 0;
   height: 50px;
-  width: 100%;
   justify-content: center;
 }
 
 #bottom-navbar span {
-  display: flex;
-  align-items: center;
   margin-left: 4%;
 }
 
